@@ -19,6 +19,7 @@ include device/yu/tomato/board/*.mk
 
 # Assertions
 TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
+TARGET_USES_C2D_COMPOSITION := true
 
 # Inherit from proprietary files
 include vendor/yu/tomato/BoardConfigVendor.mk
